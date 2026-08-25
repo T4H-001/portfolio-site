@@ -1,0 +1,27 @@
+{
+  "name": "University of Technical Humanity",
+  "version": "0.1.0",
+  "status": "prototype",
+  "progression": ["awareness","literacy","fluency","augmentation","application","adoption","governance","leadership","mastery"],
+  "schools": [
+    "AI Foundations","AI at Work","AI for Business","AI for Industries","AI Engineering","AI Governance","AI Leadership","Human Augmentation","AI Innovation","AI Futures","AI Mastery","Outcome Capability"
+  ],
+  "formats": ["course","micro-course","pathway","workshop","bootcamp","assessment","challenge","playbook","coach","industry-academy"],
+  "portfolio_feeders": [
+    {"name":"AI Sweet Spots","role":"research/opportunity discovery","domain":"aisweetspots.com"},
+    {"name":"4HR Atlas","role":"applied AI capability programs","domain":"4hr Atlas"},
+    {"name":"AI4Tradies","role":"industry/role-native trade education","domain":"ai4tradies.org"},
+    {"name":"Outcome Ready","role":"outcomes, assessment and evidence","domain":"outcome-ready.com"},
+    {"name":"Augmented Humanity Coach","role":"human capability","domain":"augmentedhumanity.coach"},
+    {"name":"WorkFamilyAI","role":"family and community AI education","domain":"workfamilyai.org"},
+    {"name":"AssureME / ConsentX","role":"assurance, consent and trust","domain":"assureme / consentx"},
+    {"name":"MCP-Native","role":"AI engineering","domain":"mcp-native.com"},
+    {"name":"Holo-Org","role":"AI-native organisations","domain":"holo-org.com"},
+    {"name":"InnovateMe","role":"innovation and commercialisation","domain":"innovate-me"},
+    {"name":"OwnYourAI","role":"personal AI capability","domain":"ownyourai.info"},
+    {"name":"Tech 4 Humanity","role":"portfolio umbrella","domain":"tech4humanity.com.au"}
+  ],
+  "credential_types": ["certificate","qualification","micro-credential","assessed-outcome","industry-certification","program-completion"],
+  "integration_targets": ["ClassroomIO","H5P","BigBlueButton","Stripe","Supabase","T4H evidence/credential ledger"],
+  "truth_rule": "Do not display a credential as verified unless the live credential ledger returns a valid receipt."
+}
