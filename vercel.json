@@ -4,6 +4,8 @@
     { "source": "/research", "destination": "/researchhub.html" },
     { "source": "/research-hub", "destination": "/researchhub.html" },
     { "source": "/portfolio", "destination": "/portfolio.html" },
-    { "source": "/widget", "destination": "/widget.html" }
+    { "source": "/widget", "destination": "/widget.html" },
+    { "source": "/uth", "destination": "/uth/index.html" },
+    { "source": "/uth/", "destination": "/uth/index.html" }
   ]
 }
