@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "lms": {
+    "provider": "ClassroomIO",
+    "mode": "integration",
+    "required_events": ["user.created","enrollment.created","enrollment.completed","lesson.completed","exercise.submitted","exercise.graded","certificate.issued","cohort.completed","course.published"],
+    "required_objects": ["organization","user","course","lesson","exercise","submission","cohort","certificate"]
+  },
+  "interactive": {"provider":"H5P","mode":"content-layer"},
+  "live": {"provider":"BigBlueButton","mode":"classroom-layer"},
+  "commercial": {"provider":"Stripe","mode":"enrolment-and-commercial-layer"},
+  "control_plane": {"provider":"T4H/Supabase","mode":"catalogue-evidence-credential-control"},
+  "credential_flow": [
+    "learner completes program",
+    "LMS emits completion/certificate event",
+    "UTH validates event and issuer",
+    "evidence receipt is stored",
+    "credential is written to canonical ledger",
+    "public verifier exposes minimum public projection"
+  ],
+  "truth_state": {
+    "REAL": "verified by live source and receipt",
+    "PARTIAL": "stored or observed but not fully verified",
+    "BLOCKED": "required integration unavailable",
+    "ASPIRATIONAL": "design only"
+  }
+}
